@@ -4,13 +4,14 @@
 - A customisable sequential gene scanner for flux balance analysis of both gene deletions and upregulations.
 - Allows adapting the number of affected genes, the loop selection percentile, the upregulation factor & the growth rate threshold.
 - Created by: [@LucoDevro](https://github.com/LucoDevro), Lucas De Vrieze, Department of Chemical Engineering, KU Leuven, Heverlee (Belgium)
+- (developed as part of a MSc thesis)
 - Last updated: 14th April 2021
 
 **Theoretical basis**
 
 Sequential scanning algorithm based on pFBA, including MOMA extension to deal with genetically perturbed networks
-- Alper et al., Met. Eng., doi: https://doi.org/10.1016/j.ymben.2004.12.003
-- Wang et al., Biochem Eng J, doi: https://doi.org/10.1016/j.bej.2017.03.017)
+- *Scanning algorithm:* Alper et al., Met. Eng., doi: https://doi.org/10.1016/j.ymben.2004.12.003
+- *MOMA integration:* Wang et al., Biochem Eng J, doi: https://doi.org/10.1016/j.bej.2017.03.017
 
 **Contents**
 
