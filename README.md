@@ -29,3 +29,6 @@ Sequential scanning algorithm based on pFBA, including MOMA extension to deal wi
 - MATLAB 2019b or higher
 - [COBRA toolbox](https://github.com/opencobra/cobratoolbox) 3.0 for MATLAB
 - IBM Cplex optimiser for MATLAB (or Gurobi Optimiser, or any other software capable of solving quadratic optimisation problems)
+
+**Other remarks**
+- This code currently uses a separate `geneNames` field. If your metabolic model happens to contain a complete `genes` field, just replace the appropiate field accessions.
